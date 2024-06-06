@@ -4,6 +4,5 @@ tensorflow
 scikit-learn
 plotly
 joblib
-locale
 transformers
 torch
