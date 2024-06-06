@@ -13,6 +13,7 @@ import locale
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
 import os
+import gdown
 
 locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')  # Set locale for thousands separator
 
