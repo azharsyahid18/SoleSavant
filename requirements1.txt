@@ -1,0 +1,12 @@
+pandas
+streamlit
+tensorflow
+scikit-learn
+plotly
+joblib
+transformers
+torch
+supabase
+dotenv
+numpy
+keras
