@@ -7,3 +7,4 @@ joblib
 transformers
 torch
 supabase
+dotenv
