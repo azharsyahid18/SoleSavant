@@ -1,7 +1,16 @@
 import streamlit as st
 from auth import login, register
 from func import apps, homepage
+from flask import Flask, jsonify
 
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return jsonify(message="SoleSavant!")
+
+if __name__ == "__main__":
+    app.run()
 
 def app():
     st.sidebar.title("Navigation")
